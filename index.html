@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>WebOps App</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <div class="container1">
+                    <div class="left">
+                        <li id="img"><img src="img/eagle.jfif" alt="" width="35px"></li>
+                        <li>Brand Name</li>
+                    </div>
+                    <div class="right">
+                        <li><a href="#">Link1</a></li>
+                        <li><a href="#">Link2</a></li>
+                        <li><a href="#">Link3</a></li>
+                        <li><a href="#">Link4</a></li>
+                        <li><a href="#">Link5</a></li>
+                    </div>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="container2">
+            <form id="form" class="form display">
+                <h2>Register here</h2>
+                <div class="form-control">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" placeholder="Enter name">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="password2">Confirm Password</label>
+                    <input type="password" id="password2" placeholder="Enter password again">
+                    <small>Error message</small>
+                </div>
+                <div class="form-control">
+                    <label for="mobile">Mobile number</label>
+                    <input type="tel"  id="mobile" placeholder="Enter mobile number">
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+    
+            <div class="container3 display">
+                <div class="box" id="box1"></div>
+                <div class="box" id="box2"></div>
+                <div class="box" id="box3"></div>
+                <div class="box" id="box4"></div>
+                <div class="box" id="box5"></div>
+            </div> 
+
+            <p id="load">Loading Animation</p>  
+            <div class="progress">
+                <div class="anim"></div>
+            </div>   
+
+        </div>
+      
+        <div class="container4">
+            <p>A list with custom bullets</p>
+            <ul type = "square">
+                <li id="one">list item 1</li>
+                <li id="two">list item 2</li>
+                <li id="three">list item 3</li>
+                <li id="four">list item 4</li>
+                <li id="five">list item 5</li>                
+            </ul>
+        </div>
+        
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
